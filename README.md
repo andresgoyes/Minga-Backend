@@ -33,7 +33,7 @@ Create a file named `.env` and include the following content. Replace placeholde
 ```env
 PORT=8080
 # Remove {} and complete the values
-URI_MONGO="mongodb+srv://{mongoUser}:{password}@{databaseName}.w9lh8.mongodb.net/my_tinerary"
+URI_MONGO="mongodb+srv://{mongoUser}:{password}@{databaseName}.tjm5s.mongodb.net/my_tinerary"
 SECRET="{yourSecretWord}"
 GOOGLE_CLIENT_ID="{GoogleClientID}"
 GOOGLE_CLIENT_SECRET="{GoogleClientSecret}"
@@ -47,11 +47,13 @@ GOOGLE_URI_BACK="/api/auth/signIn/google/callback"
 Run the following commands to upload data to the database. After each command, press `Ctrl+C` followed by `S` to stop the process:
 
 ```bash
-npm run dataUser
-npm run dataComment
-npm run dataCompany
-npm run dataManga
-npm run dataCategory
+npm run dataUsers
+npm run dataAuthors
+npm run dataCompanies
+npm run dataCategories
+npm run dataMangas
+npm run dataComments
+npm run dataReactions
 ```
 
 ---
