@@ -33,7 +33,7 @@ Create a file named `.env` and include the following content. Replace placeholde
 ```env
 PORT=8080
 # Remove {} and complete the values
-URI_MONGO="mongodb+srv://{mongoUser}:{password}@{databaseName}.tjm5s.mongodb.net/my_tinerary"
+URI_MONGO="mongodb+srv://{mongoUser}:{password}@{databaseName}.tjm5s.mongodb.net/minga"
 SECRET="{yourSecretWord}"
 GOOGLE_CLIENT_ID="{GoogleClientID}"
 GOOGLE_CLIENT_SECRET="{GoogleClientSecret}"
