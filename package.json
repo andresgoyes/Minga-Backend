@@ -1,0 +1,42 @@
+{
+  "name": "minga-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js",
+    "dataUsers": "node ./models/data/users.js",
+    "dataAuthors": "node ./models/data/authors.js",
+    "dataCompanies": "node ./models/data/companies.js",
+    "dataCategories": "node ./models/data/categories.js",
+    "dataMangas": "node ./models/data/mangas.js",
+    "dataComments": "node ./models/data/comments.js",
+    "dataReactions": "node ./models/data/reactions.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "http-errors": "^2.0.0",
+    "joi": "^17.13.3",
+    "joi-objectid": "^4.0.2",
+    "joi-oid": "^1.1.2",
+    "mercadopago": "^1.5.15",
+    "mongoose": "^8.8.3",
+    "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-jwt": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.4.1"
+  }
+}
