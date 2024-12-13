@@ -9,7 +9,6 @@ import chapterRouter from './chapters.js';
 import commentRouter from './comments.js';
 import reactionRouter from "./reactions.js";
 import authRouter from "./auth.js";
-import donateRouter from "./donate.js";
 
 const router = Router();
 
@@ -39,6 +38,5 @@ router.use('/mangas', mangaRouter);
 router.use('/chapters', chapterRouter);
 router.use('/comments', commentRouter);
 router.use('/reactions', reactionRouter);
-router.use('/payment', donateRouter)
 
 export default router;
